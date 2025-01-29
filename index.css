@@ -54,7 +54,7 @@
   }
 }
 
-.features-wrapper-qclm {
+.features-wrapper-krs2 {
   display: contents;
 }
  
@@ -164,7 +164,7 @@
   }
 }
 
-.practice-wrapper-7rl4 {
+.practice-wrapper-wb5f {
   display: contents;
 }
  
@@ -218,7 +218,7 @@
   }
 }
 
-.practice-wrapper-zak0 {
+.practice-wrapper-efxr {
   display: contents;
 }
  
@@ -272,7 +272,7 @@
   }
 }
 
-.practice-wrapper-20lp {
+.practice-wrapper-aksq {
   display: contents;
 }
  
@@ -326,7 +326,7 @@
   }
 }
 
-.practice-wrapper-sc21 {
+.practice-wrapper-xu1s {
   display: contents;
 }
  
@@ -380,7 +380,7 @@
   }
 }
 
-.practice-wrapper-qvtj {
+.practice-wrapper-9hv2 {
   display: contents;
 }
  
@@ -493,7 +493,7 @@
   }
 }
 
-.doctor-wrapper-fa9r {
+.doctor-wrapper-bcob {
   display: contents;
 }
  
@@ -552,7 +552,7 @@
   }
 }
 
-.doctor-wrapper-vkxw {
+.doctor-wrapper-xn99 {
   display: contents;
 }
  
@@ -611,7 +611,7 @@
   }
 }
 
-.doctor-wrapper-ryap {
+.doctor-wrapper-s7fk {
   display: contents;
 }
  
@@ -1032,7 +1032,7 @@
  
 .home-links1 {
   gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -1235,6 +1235,11 @@
   justify-content: center;
 }
  
+.home-divider1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
+}
+ 
 .home-header18 {
   width: 100%;
   font-size: 62px;
@@ -1247,6 +1252,11 @@
 .home-caption7 {
   font-size: 18px;
   line-height: 27px;
+}
+ 
+.home-divider2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: none;
 }
  
 .home-book3 {
@@ -2103,6 +2113,14 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .home-divider1 {
+    width: 80px;
+    height: 1px;
+    display: flex;
+    border-color: #ffffff;
+    border-width: 0px;
+    background-color: #ffffff;
+  }
   .home-header18 {
     max-width: 75%;
   }
@@ -2111,6 +2129,14 @@
   }
   .home-text23 {
     max-width: 75%;
+  }
+  .home-divider2 {
+    width: 80px;
+    height: 1px;
+    display: flex;
+    border-color: #ffffff;
+    border-width: 0px;
+    background-color: #ffffff;
   }
   .home-image20 {
     flex: 0 0 auto;
@@ -2461,21 +2487,34 @@
     overflow-x: hidden;
   }
   .home-navbar {
+    display: flex;
     padding: var(--dl-space-space-unit);
+    justify-content: flex-start;
   }
   .home-mobile-menu {
     padding: 16px;
   }
   .home-main1 {
-    height: 725px;
+    height: auto;
   }
   .home-content1 {
+    height: auto;
     align-self: flex-start;
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
+  .home-divider1 {
+    width: 300px;
+    align-self: center;
+    border-color: var(--dl-color-primary-300);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 0px;
+    background-color: transparent;
+  }
   .home-header18 {
-    width: 368px;
-    font-size: 62px;
+    width: auto;
+    font-size: 50px;
+    max-width: 100%;
     font-style: normal;
     font-weight: 600;
     line-height: 74px;
@@ -2485,6 +2524,16 @@
   }
   .home-text23 {
     max-width: 100%;
+  }
+  .home-divider2 {
+    width: 300px;
+    align-self: center;
+    margin-top: 15px;
+    border-color: var(--dl-color-primary-300);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 0px;
+    background-color: transparent;
   }
   .home-book3 {
     width: 240px;
@@ -2511,7 +2560,10 @@
     height: 1104px;
   }
   .home-text51 {
+    padding-left: 35px;
     border-radius: 40px;
+    padding-right: 35px;
+    background-color: rgba(213, 255, 180, 0.6);
   }
   .home-iframe {
     width: 390;
@@ -2522,15 +2574,30 @@
     margin-bottom: 20px;
   }
   .home-footer {
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
+    width: 100%;
+    height: auto;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: #4a7f14;
+  }
+  .home-left2 {
+    width: 100%;
+  }
+  .home-brand {
+    width: 100%;
+    max-width: auto;
   }
   .home-header22 {
-    width: 479px;
-    font-size: 62px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    font-size: 40px;
+    max-width: 100%;
     font-style: normal;
     font-weight: 600;
     line-height: 74px;
+    text-decoration: none;
   }
   .home-socials {
     display: flex;
@@ -2540,6 +2607,13 @@
   }
   .home-header23 {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .home-link16 {
+    font-size: 25px;
+  }
+  .home-copyright6 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
   }
 }
