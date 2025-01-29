@@ -746,6 +746,10 @@
   transform: scaleX(1);
 }
  
+.classname {
+  width: 80%;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Poppins;
